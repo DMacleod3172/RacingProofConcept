@@ -8,9 +8,9 @@ public class DriveLocomotion : MonoBehaviour
     CharacterController characterController;
     public Transform cameraContainer;
 
-    public float maxSpeed = 10f;
+    public float maxSpeed = 1000f;
     float speed = 0f;
-    float accelerationMultiplier = 0.2f;
+    float accelerationMultiplier = 0.4f;
     float defaultDrag = 0.01f;
     float breakDrag = 0.1f;
     float drag = 0.2f;
