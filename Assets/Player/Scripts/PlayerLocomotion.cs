@@ -68,7 +68,7 @@ public class PlayerLocomotion : MonoBehaviour
 
     void Locomotion()
     {
-        if (characterController.isGrounded) // When grounded, set y-axis to zero (to ignore it)
+        if (characterController.isGrounded) // When grounded, set y-axis to zero
         {
             float acceleration = accelerate.ReadValue<float>();
             float breaking = brakePedal.ReadValue<float>();
